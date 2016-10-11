@@ -2,9 +2,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  margin-bottom: 50px;
+}
 
 .clear {
   clear:both;
+}
+
+.main-area {
+  margin: 0;
+  background: url("yorkie.jpg") center center fixed;
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+
+.container h1 {
+  margin-top:0;
+  padding-top: 30px;
+
 }
 
 .circle {
@@ -16,10 +33,10 @@
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 20px 10px 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -34,12 +51,20 @@
 .slogan {
   font-family: 'fff_tusjbold';
   font-weight: bold;
-  padding-top: 33px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.about {
+  font-family: 'Pacifico', cursive;
+}
+
+.about p {
   font-size: 20px;
 }
 
 .links {
-  padding-top: 26px;
+  margin-top: 43px;
 }
 
 .links a {
@@ -56,6 +81,8 @@ header {
 
 hr {
   clear:both;
+  margin-bottom: 0;
+  border:none;
 }
 
 h1 {
@@ -63,6 +90,10 @@ h1 {
 }
 
 h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.modal {
   font-family: 'Pacifico', cursive;
 }
 
@@ -83,4 +114,20 @@ a:hover {
 .made-by {
   font-size: 15px;
   font-style: italic;
+}
+
+.top {
+  margin-top: 90px;
+  font-size: 45px;
+  font-family: 'fff_tusjbold';
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px){
+  .made-by {
+    text-align: left;
+  }
 }
