@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Pacifico';
+@import 'https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Fredericka+the+Great|Kranky';
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -26,6 +27,7 @@ body {
 
 .circle {
     font-weight:bold;
+    font-family: 'Cabin Sketch', cursive;
     font-style: italic;
     position: relative;
     border-radius: 100%;
@@ -49,14 +51,14 @@ body {
 }
 
 .slogan {
-  font-family: 'fff_tusjbold';
+  font-family: 'Cabin Sketch', cursive;
   font-weight: bold;
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .about {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .about p {
@@ -69,9 +71,10 @@ body {
 
 .links a {
   color:black;
-  font-size: 25px;
+  font-size: 28px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'fff_tusjbold';
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: bold;
   margin-left: 8px;
 }
 
@@ -86,19 +89,19 @@ hr {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .modal {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .footer-link {
-  font-family: 'fff_tusjbold';
+  font-family: 'Fredericka the Great', cursive;
   font-size: 20px;
 }
 
@@ -119,7 +122,7 @@ a:hover {
 .top {
   margin-top: 90px;
   font-size: 45px;
-  font-family: 'fff_tusjbold';
+  font-family: 'Kranky', cursive;
 }
 
 ::selection {
