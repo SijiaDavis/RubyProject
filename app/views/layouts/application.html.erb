@@ -9,20 +9,22 @@
 <body>
   <header>
     <div class="col-xs-2">
+      <%= link_to root_path, class:'logo' do %>
       <div class="circle">
         <br />
         WE
         <br />
         &lt;3
         <br />
-        NY
+        NYC
       </div>
+      <% end %>
     </div>
     <div class="col-xs-7 slogan">
       All the reasons that makes us <span class="next-quote">&hearts;</span> NYC
     </div>
     <div class="col-xs-3 links">
-      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'Contribute', new_quote_path %>
       <%= link_to 'About', '#' %>
     </div>
   </header>
@@ -36,8 +38,8 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="col-xs-6 footer-link"><%= link_to 'Show me another reason', '#', class: 'next-quote' %></div>
-      <div class="col-xs-6 footer-link made-by">made by <a href="mailto:arwen0603@gmail.com">Celia</a> with <span class="next-quote">&hearts;</span></div>
+      <div class="col-xs-8 footer-link"><%= link_to 'Show me another reason', root_path, class: 'next-quote' %></div>
+      <div class="col-xs-4 footer-link made-by">made by <a href="mailto:arwen0603@gmail.com">Celia</a> with <span class="next-quote">&hearts;</span></div>
 
     </div>
   </footer>

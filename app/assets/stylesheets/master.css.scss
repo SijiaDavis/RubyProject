@@ -27,6 +27,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.circle:hover {
+  background: #ff8a8a;
+}
+
 .slogan {
   font-family: 'fff_tusjbold';
   font-weight: bold;
@@ -73,6 +77,7 @@ h2 {
 
 a:hover {
   text-decoration: none;
+  color: #ff8a8a;
 }
 
 .made-by {
