@@ -13,7 +13,7 @@ body {
 
 .main-area {
   margin: 0;
-  background: url("yorkie.jpg") center center fixed;
+  background: url("yorkie2.jpg") center center fixed;
   background-size: cover;
   height: 550px;
   color: white;
@@ -26,24 +26,24 @@ body {
 }
 
 .circle {
-    font-weight:bold;
-    font-family: 'Cabin Sketch', cursive;
-    font-style: italic;
-    position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
-    margin: 20px 10px 10px 10px;
-    text-align: center;
-    color: #FFF;
-    font-size: 15px;
-    line-height: 16px;
-    cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+  font-weight:bold;
+  font-family: 'Cabin Sketch', cursive;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #F7F7F7;
+  width: 80px;
+  height: 80px;
+  margin: 20px 10px 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 16px;
+  cursor: pointer;
+  transform:rotate(11deg);
+  -ms-transform:rotate(11deg); /* IE 9 */
+  -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .circle:hover {
@@ -62,6 +62,7 @@ body {
 }
 
 .about p {
+  font-family: 'Kranky', cursive;
   font-size: 20px;
 }
 
@@ -123,10 +124,32 @@ a:hover {
   margin-top: 90px;
   font-size: 45px;
   font-family: 'Kranky', cursive;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.about h1  {
+  text-shadow: 2px 2px 3px #000;
 }
 
 ::selection {
   background-color: #f84342;
+}
+
+.about-img {
+  height:150px;
+  width:150px;
+
+}
+
+.intro {
+  padding: 8px;
+  background-color:black;
+  opacity:0.5;
+}
+
+.text-background h1, .text-background h2 {
+  font-size:50px;
+  text-shadow: 2px 2px 3px #000;
 }
 
 @media (max-width: 750px){
