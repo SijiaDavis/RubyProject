@@ -3,6 +3,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+*:focus {
+  outline: none;
+}
+
 body {
   margin-bottom: 50px;
 }
@@ -15,7 +19,8 @@ body {
   margin: 0;
   background: url("yorkie2.jpg") center center fixed;
   background-size: cover;
-  height: 550px;
+  height: 100vh;
+
   color: white;
 }
 
@@ -76,7 +81,9 @@ body {
   border-bottom: 1px solid #dfdfdf;
   font-family: 'Cabin Sketch', cursive;
   font-weight: bold;
-  margin-left: 8px;
+  margin-left: 15px;
+  text-decoration: none;
+  outline: none !important;
 }
 
 header {
@@ -104,6 +111,7 @@ h2 {
 .footer-link {
   font-family: 'Fredericka the Great', cursive;
   font-size: 20px;
+  margin-top: 13px;
 }
 
 .next-quote {
@@ -118,6 +126,7 @@ a:hover {
 .made-by {
   font-size: 15px;
   font-style: italic;
+  margin-top: 15px;
 }
 
 .top {
@@ -138,7 +147,6 @@ a:hover {
 .about-img {
   height:150px;
   width:150px;
-
 }
 
 .intro {
@@ -155,5 +163,9 @@ a:hover {
 @media (max-width: 750px){
   .made-by {
     text-align: left;
+  }
+
+  .footer-link {
+    margin-top:auto;
   }
 }
