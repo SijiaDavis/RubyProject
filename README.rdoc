@@ -1,29 +1,12 @@
-<h1>Splurty All About Yorkies</h1>
+# Splurty All About Yorkies
 
-<h3>written in Ruby, HTML, and CSS</h3>
+written in **Ruby**, **HTML**, and **CSS**
 
-<p>Feel free to add more quotes and share your love for yorkies &hearts </p>
+Feel free to add more quotes and share your love for yorkies 
 
-<img src="https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.42%20PM.png">
+![alt text](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.42%20PM.png)
 
-<img src="https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.57%20PM.png">
+![alt text](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.57%20PM.png)
 
-<img src="https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.50.10%20PM.png">
+![alt text](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.50.10%20PM.png)
 
-# Markup Editor
-
-Markup Editor is a tiny sinatra application to render html pages from markup documents.
-
-## Features
-
-- Split screen view for editing and live preview
-- Multiple markups: Markdown, RDoc, Textile
-- Syntax highlighting
-- Github-like styles
-- Import gist documents
-
-## Demo
-
-- Live demo: [http://markup.heroku.com](http://markup.heroku.com)
-- Example document: [http://markup.heroku.com/sample](http://markup.heroku.com/sample)
-- Gist document: [http://markup.heroku.com/gist/959f04242b23c3e7573d](http://markup.heroku.com/gist/959f04242b23c3e7573d)
