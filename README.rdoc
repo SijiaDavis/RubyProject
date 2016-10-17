@@ -1,28 +1,11 @@
-== README
+# Splurty All About Yorkies
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### written in Ruby, HTML, and CSS
 
-Things you may want to cover:
+Feel free to add more quotes and share your love for yorkies <3
 
-* Ruby version
+![alt tag](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.42%20PM.png)
 
-* System dependencies
+![alt tag](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.49.57%20PM.png)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![alt tag](https://github.com/SijiaDavis/Splurty-All-about-yorkies/blob/master/app/assets/images/Screen%20Shot%202016-10-17%20at%202.50.10%20PM.png)
